@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    max-height: 1300px;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 130px;
+}
+
+h1#titulop {
+    margin: 0px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 4em;
+    font-family: 'Passion One', cursive;
+    font-weight: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav > p {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+nav > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > p > a:hover {
+    text-decoration: underline;
+    color: rgb(77, 146, 168);
+}
+
+section {
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 3em;
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: left center;
+}
+
+section.imagem {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.247);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 5px;
+    display: inline-block;
+}
+
+main > section > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 1.4em;
+    padding-bottom: 47px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10x;
+}
+
+footer > p {
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: rgb(77, 146, 168);
+}
