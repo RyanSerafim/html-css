@@ -8,7 +8,13 @@
     margin: 0px;
     padding: 0px;
 }
-body {
+
+:root {
+    --fonte01: 'Passion One', cursive;;
+    --fonte02: 'Sriracha', cursive;
+}
+
+html, body {
     min-height: 100vh;
 }
 header {
@@ -22,9 +28,9 @@ h1#titulop {
     text-align: center;
     padding-top: 60px;
     font-size: 10vh;
-    font-family: 'Passion One', cursive;
+    font-family: var(--fonte01)
     font-weight: normal;
-    max
+    font-variant: small-caps;
 }
 
 p {
@@ -88,7 +94,7 @@ section.imagem > p {
 }
 
 main > section > p {
-    font-family: 'Sriracha', cursive;
+    font-family: var(--fonte02)
     font-size: 1.4em;
     padding-bottom: 47px;
 }
